@@ -1,5 +1,6 @@
 //date: 10/1/2023
 //status: Solved
+//objective: If person's age is within limit, then print 'yes', else 'no'
 
 import java.util.*;
 
