@@ -61,11 +61,12 @@ public class minCoins{
                 ptr--;
             }
             while(cent>=arr[ptr]){
-                cent = cent - arr[ptr];
+                cent -= arr[ptr];
                 count++;
             }
             if(cent==0)break loop;
         }
         return count;
     }
+
 }
